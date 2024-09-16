@@ -1,0 +1,1 @@
+ERROR: 2024/09/16 16:03:59.214988 /Users/bytedance/Documents/go_projects/src/github.com/MartinToruan/explore-go-in-action/8_standard-library/1_log/2_costome-log/main.go:34: Something has failed
