@@ -18,3 +18,18 @@ go test -v -run="ExampleSendJSON"
     Output:
     {Kristopel kristopel@gmail.com}
 ```
+
+4. Bechmark
+```azure
+Run All Benchmark
+go test -v -run="none" -bench=. 
+
+Run spesific Benchmark
+go test -v -run="none" -bench="BenchmarkSprintf"
+
+Run benchmark with minimum 3s
+go test -v -run="none" -bench="BenchmarkSprintf" -benchtime="3s"
+
+Showing memory usage and number of allocation to heap
+go test -v -run="non" -bench="BenchmarkSprintf" -benchmem
+```
